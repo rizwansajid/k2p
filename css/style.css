@@ -134,7 +134,7 @@ em {
 #wraper {
     width: 100%; margin:0 auto;
 }
-#outerBg { margin:0 auto; background:url (../images/mainBg.jpg) no-repeat left top; min-height: }
+#outerBg { margin:0 auto; }
 .logoMain { height:91px; width: 227px; margin:0 auto;}
 .logoMain a {
 	background:url(../images/logo2.png) no-repeat left top;
@@ -505,3 +505,18 @@ p.affiiliate img { float:left; margin:0 5px 5px 0; width:110px;}
 
 .aaa {}
 .aaa a {display:block !important;}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px)  {
+	#outerBg { margin:0 auto; background:url (../images/mainBg.jpg) no-repeat left top;} 
+	
+}
+@media screen and (min-device-width: 481px) and (max-width: 959px) {
+	
+	#outerBg { margin:0 auto; background:url (../images/landscape.jpg) no-repeat left top;} 
+	
+}
+
+@media screen and (min-width: 959px)  {
+	
+	#outerBg { margin:0 auto; background:url (../images/landscape.jpg) no-repeat left top;} 
+	
+}
